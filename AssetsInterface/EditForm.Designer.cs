@@ -73,6 +73,7 @@
             this.Controls.Add(this.SaveBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AssetTypeCB);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "EditForm";
             this.Text = "Редактор актива";
             this.ResumeLayout(false);

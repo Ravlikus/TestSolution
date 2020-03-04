@@ -83,6 +83,7 @@
             this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.AssetsListBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "MainForm";
             this.Text = "Редактор активов";
             this.ResumeLayout(false);
